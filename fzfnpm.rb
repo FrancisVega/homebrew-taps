@@ -12,4 +12,8 @@ class Fzfnpm < Formula
   def install
     bin.install "bin/fzfnpm"
   end
+
+  test do
+    assert_predicate "#{bin}/fzfnpm", :executable?
+  end
 end
