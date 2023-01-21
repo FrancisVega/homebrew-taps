@@ -5,11 +5,11 @@ class Fzfnpm < Formula
   sha256 "c5c5f1faae3eb7f6c8c376d7d0f9a09c7a25da1a0be9fc28cd9ff6ef4d9862b5"
   license "MIT"
 
-  depends_on "bash" => :run
+  # depends_on "bash" => :run
   depends_on "fzf" => :run
 
   def install
-    bin.install "bin/fzfnpm"
+    bin.install "bin/fzfnpm.sh"
   end
 
   test do
