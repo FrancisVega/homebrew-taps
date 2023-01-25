@@ -1,12 +1,13 @@
 class Fzfnpm < Formula
   desc "Fuzzy finder npm script runner"
   homepage "https://github.com/FrancisVega/fzfnpm"
-  url "https://github.com/FrancisVega/fzfnpm/archive/refs/tags/v0.6.0.tar.gz"
-  sha256 "883cf5df0a76abbd22726609d8f516134e23350bfcb7fee5f2d29b1a5a0dc147"
+  url "https://github.com/FrancisVega/fzfnpm/archive/refs/tags/v0.7.0.tar.gz"
+  sha256 "0eca39f6734d27cd5083ba1a71c3095f272900229f4af70769752ca4204b0163"
   license "MIT"
 
   depends_on "bash"
   depends_on "fzf"
+  depends_on "jq"
 
   def install
     bin.install "bin/fzfnpm"
