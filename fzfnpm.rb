@@ -1,8 +1,8 @@
 class Fzfnpm < Formula
   desc "Fuzzy finder npm script runner"
   homepage "https://github.com/FrancisVega/fzfnpm"
-  url "https://github.com/FrancisVega/fzfnpm/archive/refs/tags/v0.8.0.tar.gz"
-  sha256 "acf4e34bac37303606eea3726b54a3721f1881c636ef0dcf60efd145c3e7d1da"
+  url "https://github.com/FrancisVega/fzfnpm/archive/refs/tags/v0.9.0.tar.gz"
+  sha256 "8fd017932ffb542e409f12e32a80e7f11252396b329c12fa7f7ceac2d60dc3ad"
   license "MIT"
 
   depends_on "bash"
